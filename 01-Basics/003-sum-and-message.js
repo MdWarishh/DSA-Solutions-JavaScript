@@ -7,7 +7,7 @@ console.log("Sum of" + a + "and" + b + "is" + a + b);
 // ------------------------------
 //  It will return Sum of 5 and 36 is 536
 //------------------------------
-//Now you will thing why and how it will return this answer.
+//Now you will think why and how it will return this answer.
 // The reason is that when we add a string with an integer it will always return a string(concatenation).
 // but you will ask why it is not returning 41. When a + b is integer then why it is not returning 41.
 // The answer is that the operations are performed from left to right.
@@ -26,7 +26,7 @@ console.log("Sum of" + a + "and" + b + "is" + a + b);
 // for example: 23 + "34" in this it will first check two operands 23 and "34" is operands and + is operator.
 // so it will add 23 + "34" and the answer will be "2334" because one operand is string so it will return string.
 
-//! Now in our case it will first check "Sum of" + a 
+//! Now in our case it will first check "Sum of" + 5
 // so it will add "Sum of" + 5 and the answer will be "Sum of 5" because one operand is string so it will return string.
 // now the expression will be "Sum of 5" + "and" + b + "is" + a + b
 // now it will check "Sum of 5" + "and"
