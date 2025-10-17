@@ -284,3 +284,4 @@ console.log(w);
 // Is this valid code ?
 // If you ask in c++ or java about this code then it's a error but in js this code is not error it will give 2
 
+//--------Basics completed Now move to the next part.
