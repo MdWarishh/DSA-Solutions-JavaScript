@@ -98,67 +98,81 @@
 
 //*  2nd method
 
-let amount = parseInt(prompt("Enter the amount: "));
+// let amount = parseInt(prompt("Enter the amount: "));
 
-let note2000, note500, note200, note100, note50, note20, note10, note5, note2, note1;
+// let note2000, note500, note200, note100, note50, note20, note10, note5, note2, note1;
 
-if (amount >= 2000) {
-  note2000 = Math.floor(amount / 2000);
-  amount = amount % 2000;
-  console.log(`₹2000 x ${note2000}`);
-}
+// if (amount >= 2000) {
+//   note2000 = Math.floor(amount / 2000);
+//   amount = amount % 2000;
+//   console.log(`₹2000 x ${note2000}`);
+// }
 
-if (amount >= 500) {
-  note500 = Math.floor(amount / 500);
-  amount = amount % 500;
-  console.log(`₹500 x ${note500}`);
-}
+// if (amount >= 500) {
+//   note500 = Math.floor(amount / 500);
+//   amount = amount % 500;
+//   console.log(`₹500 x ${note500}`);
+// }
 
-if (amount >= 200) {
-  note200 = Math.floor(amount / 200);
-  amount = amount % 200;
-  console.log(`₹200 x ${note200}`);
-}
+// if (amount >= 200) {
+//   note200 = Math.floor(amount / 200);
+//   amount = amount % 200;
+//   console.log(`₹200 x ${note200}`);
+// }
 
-if (amount >= 100) {
-  note100 = Math.floor(amount / 100);
-  amount = amount % 100;
-  console.log(`₹100 x ${note100}`);
-}
+// if (amount >= 100) {
+//   note100 = Math.floor(amount / 100);
+//   amount = amount % 100;
+//   console.log(`₹100 x ${note100}`);
+// }
 
-if (amount >= 50) {
-  note50 = Math.floor(amount / 50);
-  amount = amount % 50;
-  console.log(`₹50 x ${note50}`);
-}
+// if (amount >= 50) {
+//   note50 = Math.floor(amount / 50);
+//   amount = amount % 50;
+//   console.log(`₹50 x ${note50}`);
+// }
 
-if (amount >= 20) {
-  note20 = Math.floor(amount / 20);
-  amount = amount % 20;
-  console.log(`₹20 x ${note20}`);
-}
+// if (amount >= 20) {
+//   note20 = Math.floor(amount / 20);
+//   amount = amount % 20;
+//   console.log(`₹20 x ${note20}`);
+// }
 
-if (amount >= 10) {
-  note10 = Math.floor(amount / 10);
-  amount = amount % 10;
-  console.log(`₹10 x ${note10}`);
-}
+// if (amount >= 10) {
+//   note10 = Math.floor(amount / 10);
+//   amount = amount % 10;
+//   console.log(`₹10 x ${note10}`);
+// }
 
-if (amount >= 5) {
-  note5 = Math.floor(amount / 5);
-  amount = amount % 5;
-  console.log(`₹5 x ${note5}`);
-}
+// if (amount >= 5) {
+//   note5 = Math.floor(amount / 5);
+//   amount = amount % 5;
+//   console.log(`₹5 x ${note5}`);
+// }
 
-if (amount >= 2) {
-  note2 = Math.floor(amount / 2);
-  amount = amount % 2;
-  console.log(`₹2 x ${note2}`);
-}
+// if (amount >= 2) {
+//   note2 = Math.floor(amount / 2);
+//   amount = amount % 2;
+//   console.log(`₹2 x ${note2}`);
+// }
 
-if (amount >= 1) {
-  note1 = amount; // whatever remains is ₹1
-  console.log(`₹1 x ${note1}`);
-} else if (amount == 0) {
-  console.log("No ₹1 notes needed");
-}
+// if (amount >= 1) {
+//   note1 = amount; // whatever remains is ₹1
+//   console.log(`₹1 x ${note1}`);
+// } else if (amount == 0) {
+//   console.log("No ₹1 notes needed");
+// }
+
+
+
+//--------------------------------------------------
+
+//?   2)  Write a program to accept rating of the movie as double and Movie
+
+// name as String. 
+// Check and print the category of movie based on rating.  
+// Example - 
+// INPUT  
+// 4.9  
+// RRR  
+// OP - RRR is a Super Hit.
